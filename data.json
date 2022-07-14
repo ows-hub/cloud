@@ -1,0 +1,77 @@
+{
+        "up": true,
+        "pending": false,
+        "available": true,
+        "autostart": true,
+        "dynamic": false,
+        "uptime": 1561,
+        "l3_device": "eth0.2",
+        "proto": "dhcp",
+        "device": "eth0.2",
+        "updated": [
+                "addresses",
+                "routes",
+                "data"
+        ],
+        "metric": 0,
+        "dns_metric": 0,
+        "delegation": true,
+        "ipv4-address": [
+                {
+                        "address": "94.26.139.111",
+                        "mask": 26
+                }
+        ],
+        "ipv6-address": [
+
+        ],
+        "ipv6-prefix": [
+
+        ],
+        "ipv6-prefix-assignment": [
+
+        ],
+        "route": [
+                {
+                        "target": "0.0.0.0",
+                        "mask": 0,
+                        "nexthop": "94.26.139.65",
+                        "source": "94.26.139.111/32"
+                }
+        ],
+        "dns-server": [
+                "94.26.128.3",
+                "94.26.128.4"
+        ],
+        "dns-search": [
+                "arbital.ru"
+        ],
+        "neighbors": [
+
+        ],
+        "inactive": {
+                "ipv4-address": [
+
+                ],
+                "ipv6-address": [
+
+                ],
+                "route": [
+
+                ],
+                "dns-server": [
+
+                ],
+                "dns-search": [
+
+                ],
+                "neighbors": [
+
+                ]
+        },
+        "data": {
+                "dhcpserver": "94.26.128.15",
+                "leasetime": 18000,
+                "ntpserver": "94.26.128.2"
+        }
+}
